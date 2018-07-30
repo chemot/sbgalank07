@@ -25,7 +25,7 @@ botStart = time.time()
 # Add me [ID LINE] http://line.me/ti/p/%40ryp6149l
 
 #Galank = LINE()
-Galank = LINE("TOKENMU BEB")
+Galank = LINE("EvmJR6SYABBT6EJJifm6.HQh4RpqRYzqfruxsRHZtfG.4/bd7v9nTJqCc4KswbI2b5JrIB1rj7rp6o19grFPEqc=")
 #Galank = LINE("Email","Password")
 #Galank = LINE()
 Galank.log("Auth Token : " + str(Galank.authToken))
@@ -2576,7 +2576,7 @@ def GalankBot(op):
                         for mention in mentionees:
                             if GalankMID in mention["M"]:
                               if settings["detectMention"] == True:
-                                 sendMention(receiver, sender, "", " \nGalank Hadir BossQ!! ")
+                                 sendMention(receiver, sender, "╭❂➣━━━━━━━━➣\n┃❂ sᴇᴘʀɪ ʜᴀᴅɪʀ ʙᴏss \n╰❂➣━━━━━━━━➣")
 
         if op.type == 17:
            print ("MEMBER JOIN TO GROUP")
